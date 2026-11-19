@@ -323,7 +323,7 @@
         font-size: 12px;
       }
     }
-    .hero-layout:has(.hero-portrait:not([hidden])) {
+    .hero-layout {
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(220px, 31%);
       align-items: center;
@@ -340,7 +340,7 @@
     }
 
     @media (max-width: 750px) {
-      .hero-layout:has(.hero-portrait:not([hidden])) {
+      .hero-layout {
         grid-template-columns: minmax(0, 1fr);
       }
 
@@ -388,7 +388,7 @@
             <a class="btn" href="knowledge-graph.html">Interactive knowledge graph ↗</a>
           </div>
         </div>
-        <img class="hero-portrait" src="rahim-rasa.jpg" alt="Portrait of Rahim Rasa" hidden onload="this.hidden = false">
+        <img class="hero-portrait" src="rahim-rasa.jpg" alt="Portrait of Rahim Rasa">
       </div>
     </div>
 
