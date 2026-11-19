@@ -1,16 +1,549 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Rahim Rasa, PhD — Postdoctoral Research Fellow at USTC. Fire safety, pedestrian dynamics, human evacuation, and cognition-driven modeling."><title>Rahim Rasa, PhD | Evacuation Science & Human Behavior</title><style>
-:root{--ink:#13243c;--muted:#617087;--blue:#156b9b;--line:#dfe8ee;--cream:#f5f8fa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;background:#fff}a{color:#0d6895}a:hover{text-decoration:underline}.wrap{max-width:1110px;margin:auto;padding:0 25px}header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(12px);z-index:5}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:70px}.logo{font-size:19px;font-weight:800;text-decoration:none;color:var(--ink)}nav{display:flex;flex-wrap:wrap;gap:19px}nav a{font-size:13px;text-decoration:none;color:#405268;font-weight:650}.hero{background:linear-gradient(120deg,#0d2338,#133e59 65%,#195a69);color:white;padding:85px 0 75px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:#8de2db;font-weight:800}.hero h1{font-size:clamp(42px,6vw,76px);letter-spacing:-.045em;line-height:1.08;margin:18px 0}.hero p{max-width:770px;color:#d2e3eb;font-size:19px}.hero .role{font-size:17px;color:#fff;font-weight:650}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:29px}.btn{padding:12px 20px;border:1px solid #a5c6d3;border-radius:8px;text-decoration:none;color:white;font-size:14px;font-weight:700}.btn.primary{background:#8de2db;color:#0c2839;border-color:#8de2db}.btn:hover{text-decoration:none;filter:brightness(1.06)}section{padding:69px 0}section:nth-of-type(even){background:var(--cream)}h2{font-size:30px;line-height:1.2;letter-spacing:-.025em;margin:0 0 16px}h3{margin:0 0 10px;font-size:19px}p{margin:0 0 16px}.intro{max-width:850px;color:#42546b;font-size:17px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-top:27px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:23px}.card p{color:var(--muted);font-size:14px}.tag{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#11778b;font-weight:800}.publication{padding:22px 0;border-bottom:1px solid var(--line)}.publication strong{display:block;font-size:17px;line-height:1.45}.publication .meta{font-size:14px;color:var(--muted);margin:7px 0}.publication a{font-size:14px;font-weight:700}.two{display:grid;grid-template-columns:1fr 1fr;gap:35px}.feature{border-radius:14px;overflow:hidden;background:#071522;color:#fff}.feature img{width:100%;display:block}.feature .inner{padding:24px}.feature p{color:#b9cfdf}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:25px}.timeline>div{border-top:4px solid #1595a6;padding-top:13px}.timeline strong{display:block}.timeline p{color:var(--muted);font-size:14px}.small{font-size:13px;color:var(--muted)}footer{background:#0d2338;color:#d6e4ec;padding:34px 0}footer a{color:#a9e9e5}@media(max-width:750px){.nav{align-items:flex-start;flex-direction:column;padding:15px 0}nav{gap:12px}.hero{padding:60px 0}.grid,.two{grid-template-columns:1fr}.timeline{grid-template-columns:1fr 1fr}section{padding:49px 0}}@media(max-width:390px){.timeline{grid-template-columns:1fr}nav a{font-size:12px}}
-</style></head><body><header><div class="wrap nav"><a class="logo" href="#home">RAHIM RASA <span style="color:#1b91a1">/ PhD</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#roadmap">Outlook</a><a href="#contact">Contact</a></nav></div></header>
-<main><div class="hero" id="home"><div class="wrap"><div class="eyebrow">Fire safety · Human behavior · Computational science</div><h1>Rahim Rasa<span style="color:#8de2db">, PhD</span></h1><p class="role">Postdoctoral Research Fellow · State Key Laboratory of Fire Science<br>University of Science and Technology of China (USTC)</p><p>Understanding how people perceive, decide, and move in complex emergencies — from empirical pedestrian dynamics to cognition-driven intelligent evacuation.</p><div class="actions"><a class="btn primary" href="#research">Explore research →</a><a class="btn" href="#publications">Selected publications</a><a class="btn" href="knowledge-graph.html">Interactive knowledge graph ↗</a></div></div></div>
-<section id="about"><div class="wrap"><div class="eyebrow">Profile</div><h2>About</h2><p class="intro">I am a postdoctoral researcher at the State Key Laboratory of Fire Science, USTC. I received my PhD in Safety Science and Engineering from USTC in 2025 under the supervision of Professor Weiguo Song. My research investigates pedestrian movement, human–obstacle interactions, route choice, and evacuation behavior in complex building environments.</p><p class="intro">My current research direction extends experimentally grounded evacuation modeling toward risk perception, cognitive decision-making, immersive virtual reality, and data-driven methods for safer emergency response.</p><p class="small">Education: Hefei University of Technology (civil engineering); University of Science and Technology of China (PhD, 2025). Recognition: Outstanding International Graduate of USTC (2025).</p><p class="small">Profile information based on the <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17183a707958/page.htm" target="_blank" rel="noopener">official SKLFS faculty profile</a>.</p></div></section>
-<section id="research"><div class="wrap"><div class="eyebrow">Research focus</div><h2>Research at the intersection of people, environments & models</h2><div class="grid"><article class="card"><span class="tag">Established</span><h3>Pedestrian & crowd dynamics</h3><p>Empirical analysis of pedestrian trajectories, route preferences, congestion, multidirectional flow, and movement behavior.</p></article><article class="card"><span class="tag">Established</span><h3>Staircase evacuation</h3><p>Human–obstacle interactions, stairway geometry, speed fluctuations, and safety implications for high-rise buildings.</p></article><article class="card"><span class="tag">Modeling</span><h3>Computational evacuation</h3><p>Behavioral and agent-based approaches, including optimal-step and social-force modeling, for evaluating evacuation performance.</p></article><article class="card"><span class="tag">Active development</span><h3>Cognitive evacuation</h3><p>Investigating risk perception, uncertainty, attention, and behavioral adaptation during evolving emergencies.</p></article><article class="card"><span class="tag">Experimental methods</span><h3>Immersive VR & sensing</h3><p>Developing Unity-based evacuation experiments and exploring eye-tracking and multimodal measurements.</p></article><article class="card"><span class="tag">Computational methods</span><h3>Vision & trajectory analysis</h3><p>Video-based pedestrian tracking, trajectory reconstruction, simulation integration, and reproducible quantitative analysis.</p></article></div></div></section>
-<section id="publications"><div class="wrap"><div class="eyebrow">Peer-reviewed research</div><h2>Selected publications</h2><p class="intro">A selection of published work, linked to journal or institutional records. Publication years follow the available bibliographic records.</p>
-<div class="publication"><strong>Impact of temporary obstacle on emergency evacuation systems in building staircases</strong><div class="meta">A. R. Rasa, W. Song, J. Zhang, R. Karim, H. Yu & X. Chen · Expert Systems with Applications · DOI: 10.1016/j.eswa.2025.130286</div><a href="https://doi.org/10.1016/j.eswa.2025.130286" target="_blank" rel="noopener">Read publication ↗</a></div>
-<div class="publication"><strong>Understanding human-obstacle interaction dynamics on staircases: Implications for emergency evacuation and fire safety in high-rise buildings</strong><div class="meta">A. R. Rasa and coauthors · Journal of Building Engineering · 2024 · Volume 98, Article 111082</div><a href="https://www.sciencedirect.com/science/article/pii/S2352710224026500" target="_blank" rel="noopener">Read publication ↗</a></div>
-<div class="publication"><strong>Comparative study of multidirectional pedestrian flows: Insights and dynamics</strong><div class="meta">R. Karim, W. Song, A. R. Rasa and coauthors · Physica A · 2024 · Volume 652, Article 130053</div><a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a></div>
-<div class="publication"><strong>A modified social force model considering collision avoidance based on empirical studies</strong><div class="meta">W. Liu, J. Zhang, A. R. Rasa & W. Song · Journal of Statistical Mechanics: Theory and Experiment · 2024 · 083403</div><a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a></div>
-<div class="publication"><strong>Understanding step synchronization in social groups: A novel method to recognize group</strong><div class="meta">W. Liu, J. Zhang, A. R. Rasa and coauthors · Physica A · 2023 · Volume 628, Article 129171</div><a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a></div>
-<p class="small" style="margin-top:20px">For the complete institutional list, see <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm">Selected Publications of Rahim Rasa (SKLFS)</a>.</p></div></section>
-<section id="projects"><div class="wrap"><div class="eyebrow">Research in practice</div><h2>Experiments, simulation & scientific visualization</h2><div class="two"><div><h3>From measured behavior to computational prediction</h3><p>My work uses controlled evacuation experiments and quantitative analysis to understand how built environments and obstacles shape human movement. Current platform development explores immersive evacuation scenarios, agent-based simulation, and computer-vision-based pedestrian tracking.</p><p>Explore the research network linking fire science, behavioral theory, pedestrian dynamics, virtual reality, AI, and emerging safety applications.</p><p><a href="knowledge-graph.html"><strong>Open the interactive research knowledge graph →</strong></a></p></div><div class="feature"><img src="research-landscape.png" alt="Conceptual interdisciplinary research landscape linking evacuation research themes" loading="lazy"><div class="inner"><h3>Research landscape</h3><p>Conceptual map of established expertise, current work, and proposed directions. Connections illustrate research relationships rather than measured bibliometric associations.</p></div></div></div></div></section>
-<section id="roadmap"><div class="wrap"><div class="eyebrow">Forward-looking research</div><h2>Research outlook</h2><p class="intro">A proposed development pathway — not a claim of completed projects or guaranteed outcomes.</p><div class="timeline"><div><strong>Foundations</strong><p>Experimental pedestrian dynamics, stairway evacuation, and behavior-informed modeling.</p></div><div><strong>2026–2028</strong><p>VR-based studies of risk perception, attention, decision-making, and multimodal measurement.</p></div><div><strong>2028–2030</strong><p>Calibration and validation of cognition-driven computational evacuation models.</p></div><div><strong>2030+</strong><p>Exploration of adaptive evacuation guidance, intelligent buildings, and cognitive digital twins.</p></div></div></div></section>
-<section id="contact"><div class="wrap"><div class="eyebrow">Get in touch</div><h2>Contact & collaboration</h2><p>State Key Laboratory of Fire Science<br>University of Science and Technology of China · Hefei, China</p><p><strong>Email:</strong> <a href="mailto:abrasa@ustc.edu.cn">abrasa@ustc.edu.cn</a><br><strong>ORCID:</strong> <a href="https://orcid.org/0009-0006-2373-6653" target="_blank" rel="noopener">0009-0006-2373-6653</a><br><strong>Institutional profile:</strong> <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17183a707958/page.htm" target="_blank" rel="noopener">USTC / SKLFS ↗</a></p></div></section></main><footer><div class="wrap">© 2026 Rahim Rasa · Academic research website · <a href="#home">Back to top ↑</a></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Rahim Rasa, PhD — Postdoctoral Research Fellow at USTC. Fire safety, pedestrian dynamics, human evacuation, and cognition-driven modeling.">
+  <title>Rahim Rasa, PhD | Fire Safety Engineering & Evacuation Modeling</title>
+
+  <style>
+    :root {
+      --ink: #13243c;
+      --muted: #617087;
+      --blue: #156b9b;
+      --line: #dfe8ee;
+      --cream: #f5f8fa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif;
+      background: #fff;
+    }
+
+    a {
+      color: #0d6895;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      max-width: 1110px;
+      margin: auto;
+      padding: 0 25px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      background: #ffffffed;
+      backdrop-filter: blur(12px);
+      z-index: 5;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 70px;
+    }
+
+    .logo {
+      font-size: 19px;
+      font-weight: 800;
+      text-decoration: none;
+      color: var(--ink);
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 19px;
+    }
+
+    nav a {
+      font-size: 13px;
+      text-decoration: none;
+      color: #405268;
+      font-weight: 650;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #0d2338, #133e59 65%, #195a69);
+      color: white;
+      padding: 85px 0 75px;
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      color: #8de2db;
+      font-weight: 800;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 6vw, 76px);
+      letter-spacing: -.045em;
+      line-height: 1.08;
+      margin: 18px 0;
+    }
+
+    .hero p {
+      max-width: 770px;
+      color: #d2e3eb;
+      font-size: 19px;
+    }
+
+    .hero .role {
+      font-size: 17px;
+      color: #fff;
+      font-weight: 650;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 29px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border: 1px solid #a5c6d3;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .btn.primary {
+      background: #8de2db;
+      color: #0c2839;
+      border-color: #8de2db;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      filter: brightness(1.06);
+    }
+
+    section {
+      padding: 69px 0;
+    }
+
+    section:nth-of-type(even) {
+      background: var(--cream);
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: -.025em;
+      margin: 0 0 16px;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 19px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .intro {
+      max-width: 850px;
+      color: #42546b;
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 17px;
+      margin-top: 27px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 23px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .tag {
+      font-size: 11px;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      color: #11778b;
+      font-weight: 800;
+    }
+
+    .publication {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .publication strong {
+      display: block;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .publication .meta {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 7px 0;
+    }
+
+    .publication a {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+    }
+
+    .feature {
+      border-radius: 14px;
+      overflow: hidden;
+      background: #071522;
+      color: #fff;
+    }
+
+    .feature img {
+      width: 100%;
+      display: block;
+    }
+
+    .feature .inner {
+      padding: 24px;
+    }
+
+    .feature p {
+      color: #b9cfdf;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-top: 25px;
+    }
+
+    .timeline > div {
+      border-top: 4px solid #1595a6;
+      padding-top: 13px;
+    }
+
+    .timeline strong {
+      display: block;
+    }
+
+    .timeline p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .small {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer {
+      background: #0d2338;
+      color: #d6e4ec;
+      padding: 34px 0;
+    }
+
+    footer a {
+      color: #a9e9e5;
+    }
+
+    /* Tablet / phone */
+    @media (max-width: 750px) {
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 15px 0;
+      }
+
+      nav {
+        gap: 12px;
+      }
+
+      .hero {
+        padding: 60px 0;
+      }
+
+      .grid,
+      .two {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      section {
+        padding: 49px 0;
+      }
+    }
+
+    /* Small phone */
+    @media (max-width: 390px) {
+      .timeline {
+        grid-template-columns: 1fr;
+      }
+
+      nav a {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#home">RAHIM RASA <span style="color:#1b91a1">/ PhD</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#roadmap">Outlook</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <div class="hero" id="home">
+      <div class="wrap">
+        <div class="eyebrow">Fire safety · Human behavior · Computational science</div>
+        <h1>Rahim Rasa<span style="color:#8de2db">, PhD</span></h1>
+        <p class="role">
+          Postdoctoral Research Fellow · State Key Laboratory of Fire Science<br>
+          University of Science and Technology of China (USTC)
+        </p>
+        <p>Understanding how people perceive, decide, and move in complex emergencies — from empirical pedestrian dynamics to cognition-driven intelligent evacuation.</p>
+        <div class="actions">
+          <a class="btn primary" href="#research">Explore research →</a>
+          <a class="btn" href="#publications">Selected publications</a>
+          <a class="btn" href="knowledge-graph.html">Interactive knowledge graph ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about">
+      <div class="wrap">
+        <div class="eyebrow">Profile</div>
+        <h2>About</h2>
+        <p class="intro">I am a Postdoctoral Research Fellow at the State Key Laboratory of Fire Science (SKLFS), University of Science and Technology of China (USTC). I received my Ph.D. in Safety Science and Engineering from USTC in 2025 under the supervision of Professor Weiguo Song, with interdisciplinary expertise spanning civil engineering, physics, computer science, mathematics, and psychology.</p>
+        <p class="intro">My research focuses on fire safety, human behavior in emergencies, crowd dynamics, evacuation modeling, and human-environment interactions. I combine computational modeling, experimental methods, and data analytics to support safety and risk management in complex environments such as high-rise buildings, transit hubs, and public spaces.</p>
+        <p class="small">Education: Hefei University of Technology (civil engineering); University of Science and Technology of China (PhD, 2025). Recognition: Outstanding International Graduate of USTC (2025).</p>
+        <p class="intro">I am motivated by improving emergency preparedness, optimizing evacuation strategies, and strengthening urban resilience, in line with UN SDGs 3, 9 and 11. I welcome collaboration on safety engineering, human-centered design for emergencies, resilient infrastructure, and disaster risk reduction.</p>
+        <p class="small">Profile information based on the <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17183a707958/page.htm" target="_blank" rel="noopener">official SKLFS faculty profile</a>.</p>
+      </div>
+    </section>
+
+    <!-- ===================== RESEARCH ===================== -->
+    <section id="research">
+      <div class="wrap">
+        <div class="eyebrow">Research focus</div>
+        <h2>Research at the intersection of people, environments & models</h2>
+
+        <div class="grid">
+
+          <article class="card">
+            <span class="tag">Established</span>
+            <h3>Pedestrian & crowd dynamics</h3>
+            <p>Empirical analysis of pedestrian trajectories, route preferences, congestion, multidirectional flow, and movement behavior.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">Established</span>
+            <h3>Staircase evacuation</h3>
+            <p>Human–obstacle interactions, stairway geometry, speed fluctuations, and safety implications for high-rise buildings.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">Modeling</span>
+            <h3>Computational evacuation</h3>
+            <p>Behavioral and agent-based approaches, including optimal-step and social-force modeling, for evaluating evacuation performance.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">Active development</span>
+            <h3>Cognitive evacuation</h3>
+            <p>Investigating risk perception, uncertainty, attention, and behavioral adaptation during evolving emergencies.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">Experimental methods</span>
+            <h3>Immersive VR & sensing</h3>
+            <p>Developing Unity-based evacuation experiments and exploring eye-tracking and multimodal measurements.</p>
+          </article>
+
+          <article class="card">
+            <span class="tag">Computational methods</span>
+            <h3>Vision & trajectory analysis</h3>
+            <p>Video-based pedestrian tracking, trajectory reconstruction, simulation integration, and reproducible quantitative analysis.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section id="publications">
+      <div class="wrap">
+        <div class="eyebrow">Peer-reviewed research</div>
+        <h2>Selected publications</h2>
+        <p class="intro">A selection of published work, linked to journal or institutional records. Publication years follow the available bibliographic records.</p>
+
+        <div class="publication">
+          <strong>Impact of temporary obstacle on emergency evacuation systems in building staircases</strong>
+          <div class="meta">A. R. Rasa, W. Song, J. Zhang, R. Karim, H. Yu & X. Chen · Expert Systems with Applications · DOI: 10.1016/j.eswa.2025.130286</div>
+          <a href="https://doi.org/10.1016/j.eswa.2025.130286" target="_blank" rel="noopener">Read publication ↗</a>
+        </div>
+
+        <div class="publication">
+          <strong>Understanding human-obstacle interaction dynamics on staircases: Implications for emergency evacuation and fire safety in high-rise buildings</strong>
+          <div class="meta">A. R. Rasa and coauthors · Journal of Building Engineering · 2024 · Volume 98, Article 111082</div>
+          <a href="https://www.sciencedirect.com/science/article/pii/S2352710224026500" target="_blank" rel="noopener">Read publication ↗</a>
+        </div>
+
+        <div class="publication">
+          <strong>Comparative study of multidirectional pedestrian flows: Insights and dynamics</strong>
+          <div class="meta">R. Karim, W. Song, A. R. Rasa and coauthors · Physica A · 2024 · Volume 652, Article 130053</div>
+          <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a>
+        </div>
+
+        <div class="publication">
+          <strong>A modified social force model considering collision avoidance based on empirical studies</strong>
+          <div class="meta">W. Liu, J. Zhang, A. R. Rasa & W. Song · Journal of Statistical Mechanics: Theory and Experiment · 2024 · 083403</div>
+          <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a>
+        </div>
+
+        <div class="publication">
+          <strong>Understanding step synchronization in social groups: A novel method to recognize group</strong>
+          <div class="meta">W. Liu, J. Zhang, A. R. Rasa and coauthors · Physica A · 2023 · Volume 628, Article 129171</div>
+          <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm" target="_blank" rel="noopener">Institutional publication list ↗</a>
+        </div>
+
+        <p class="small" style="margin-top:20px">For the complete institutional list, see <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17181a707956/page.htm">Selected Publications of Rahim Rasa (SKLFS)</a>.</p>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="eyebrow">Research in practice</div>
+        <h2>Experiments, simulation & scientific visualization</h2>
+
+        <div class="two">
+
+          <div>
+            <h3>From measured behavior to computational prediction</h3>
+            <p>My work uses controlled evacuation experiments and quantitative analysis to understand how built environments and obstacles shape human movement. Current platform development explores immersive evacuation scenarios, agent-based simulation, and computer-vision-based pedestrian tracking.</p>
+            <p>Explore the research network linking fire science, behavioral theory, pedestrian dynamics, virtual reality, AI, and emerging safety applications.</p>
+            <p><a href="knowledge-graph.html"><strong>Open the interactive research knowledge graph →</strong></a></p>
+          </div>
+
+          <div class="feature">
+            <img src="research-landscape.png" alt="Conceptual interdisciplinary research landscape linking evacuation research themes" loading="lazy">
+            <div class="inner">
+              <h3>Research landscape</h3>
+              <p>Conceptual map of established expertise, current work, and proposed directions. Connections illustrate research relationships rather than measured bibliometric associations.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ROADMAP / OUTLOOK ===================== -->
+    <section id="roadmap">
+      <div class="wrap">
+        <div class="eyebrow">Forward-looking research</div>
+        <h2>Research outlook</h2>
+        <p class="intro">A proposed development pathway — not a claim of completed projects or guaranteed outcomes.</p>
+
+        <div class="timeline">
+          <div>
+            <strong>Foundations</strong>
+            <p>Experimental pedestrian dynamics, stairway evacuation, and behavior-informed modeling.</p>
+          </div>
+          <div>
+            <strong>2026–2028</strong>
+            <p>VR-based studies of risk perception, attention, decision-making, and multimodal measurement.</p>
+          </div>
+          <div>
+            <strong>2028–2030</strong>
+            <p>Calibration and validation of cognition-driven computational evacuation models.</p>
+          </div>
+          <div>
+            <strong>2030+</strong>
+            <p>Exploration of adaptive evacuation guidance, intelligent buildings, and cognitive digital twins.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact">
+      <div class="wrap">
+        <div class="eyebrow">Get in touch</div>
+        <h2>Contact & collaboration</h2>
+        <p>
+          State Key Laboratory of Fire Science<br>
+          University of Science and Technology of China · Hefei, China
+        </p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:abrasa@ustc.edu.cn">abrasa@ustc.edu.cn</a><br>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rahim-rasa-846133138/" target="_blank" rel="noopener">Rahim Rasa</a><br>
+          <strong>ORCID:</strong> <a href="https://orcid.org/0009-0006-2373-6653" target="_blank" rel="noopener">0009-0006-2373-6653</a><br>
+          <strong>Institutional profile:</strong> <a href="https://en.sklfs.ustc.edu.cn/2025/1104/c17183a707958/page.htm" target="_blank" rel="noopener">USTC / SKLFS ↗</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="wrap">© 2026 Rahim Rasa · Academic research website · <a href="#home">Back to top ↑</a></div>
+  </footer>
+
+</body>
+</html>
