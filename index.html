@@ -323,6 +323,32 @@
         font-size: 12px;
       }
     }
+    .hero-layout:has(.hero-portrait:not([hidden])) {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 31%);
+      align-items: center;
+      gap: clamp(24px, 5vw, 72px);
+    }
+
+    .hero-portrait {
+      width: 100%;
+      max-width: 360px;
+      height: auto;
+      justify-self: center;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+    }
+
+    @media (max-width: 750px) {
+      .hero-layout:has(.hero-portrait:not([hidden])) {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .hero-portrait {
+        width: min(100%, 280px);
+        justify-self: start;
+      }
+    }
   </style>
 </head>
 
@@ -347,19 +373,22 @@
 
     <!-- ===================== HERO ===================== -->
     <div class="hero" id="home">
-      <div class="wrap">
-        <div class="eyebrow">Fire safety · Human behavior · Computational science</div>
-        <h1>Rahim Rasa<span style="color:#8de2db">, PhD</span></h1>
-        <p class="role">
-          Postdoctoral Research Fellow · State Key Laboratory of Fire Science<br>
-          University of Science and Technology of China (USTC)
-        </p>
-        <p>Understanding how people perceive, decide, and move in complex emergencies — from empirical pedestrian dynamics to cognition-driven intelligent evacuation.</p>
-        <div class="actions">
-          <a class="btn primary" href="#research">Explore research →</a>
-          <a class="btn" href="#publications">Selected publications</a>
-          <a class="btn" href="knowledge-graph.html">Interactive knowledge graph ↗</a>
+      <div class="wrap hero-layout">
+        <div>
+          <div class="eyebrow">Fire safety · Human behavior · Computational science</div>
+          <h1>Rahim Rasa<span style="color:#8de2db">, PhD</span></h1>
+          <p class="role">
+            Postdoctoral Research Fellow · State Key Laboratory of Fire Science<br>
+            University of Science and Technology of China (USTC)
+          </p>
+          <p>Understanding how people perceive, decide, and move in complex emergencies — from empirical pedestrian dynamics to cognition-driven intelligent evacuation.</p>
+          <div class="actions">
+            <a class="btn primary" href="#research">Explore research →</a>
+            <a class="btn" href="#publications">Selected publications</a>
+            <a class="btn" href="knowledge-graph.html">Interactive knowledge graph ↗</a>
+          </div>
         </div>
+        <img class="hero-portrait" src="rahim-rasa.jpg" alt="Portrait of Rahim Rasa" hidden onload="this.hidden = false">
       </div>
     </div>
 
